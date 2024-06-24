@@ -24,7 +24,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="flex justify-between items-center w-full h-20 px-16 text-white bg-black fixed ">
+    <div className="flex justify-between items-center w-full h-20 px-8 md:px-16 text-white bg-black fixed">
       <div>
         <h1 className="text-5xl font-signature ml-2">Abiral</h1>
       </div>
@@ -45,7 +45,7 @@ const Navbar = () => {
       {/* -----//hamburger menu------- */}
       <div
         onClick={() => setToggleNav(!toggleNav)}
-        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
+        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden ml-4"
       >
         {toggleNav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
