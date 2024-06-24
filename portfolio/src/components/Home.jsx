@@ -17,11 +17,9 @@ const Home = () => {
             I'm a <span className="text-yellow-600">Web Developer</span>
           </h1>
           <p className="text-gray-600 mb-8 xl:text-xl">
-            Hey👋 My name is <span className="font-semibold">Abiral Koju</span>,
-            a dedicated and passionate web developer. With a strong foundation
-            in front-end technologies, I am committed to creating seamless,
-            responsive, and user-friendly websites. My goal is to deliver
-            high-quality code and ensure an optimal user experience.
+            I love exploring and creating 🚀 I'm a lifelong learner 🎓 and I
+            might have a thing for Pizzas 🍕. My goal is to deliver high-quality
+            code and ensure an optimal user experience 🧑‍💻.
           </p>
           <div className="mx-auto lg:mx-0">
             <Link
