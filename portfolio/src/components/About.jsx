@@ -9,7 +9,7 @@ const About = () => {
       className="flex items-center justify-center min-h-screen mx-16 pt-20 pb-8"
     >
       {/* Content Container */}
-      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-center gap-5 pl-3 pr-12 pt-7 xl:gap-0">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-center gap-5 pr-12 pt-7 xl:gap-0">
         {/* Image */}
         <div className="lg:pb-[1rem] lg:w-1/2 lg:flex-shrink-0 rounded-md overflow-hidden flex justify-center lg:mt-3 ">
           <img
@@ -33,7 +33,7 @@ const About = () => {
           <div className="mx-auto lg:mx-0">
             <a
               href="/resume.pdf"
-              className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-medium rounded-md shadow-md hover:bg-gradient-to-r hover:from-cyan-600 hover:to-blue-600 xl:text-xl cursor-pointer"
+              className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-gray-700 to-green-600 text-white font-medium rounded-md shadow-md hover:bg-gradient-to-r hover:from-gray-800 hover:to-green-700 xl:text-xl cursor-pointer"
               download={true}
               target="_blank"
               rel="noreferrer"

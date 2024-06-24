@@ -30,7 +30,14 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-8 md:px-16 text-white bg-black fixed">
       <div>
-        <h1 className="text-5xl font-signature ml-2">Abiral</h1>
+        <Link
+          to="Home"
+          smooth
+          duration={500}
+          className="text-5xl font-signature ml-2 cursor-pointer"
+        >
+          Abiral
+        </Link>
       </div>
 
       <ul className="hidden  md:flex">
