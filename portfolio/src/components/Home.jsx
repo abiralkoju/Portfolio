@@ -13,15 +13,15 @@ const Home = () => {
       <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-center gap-5 px-12 pt-7 xl:gap-0">
         {/* Text Content */}
         <div className="lg:w-1/2 text-center lg:text-left lg:ml-10 flex flex-col justify-center">
-          <h1 className="text-4xl font-bold text-gray-800 mb-4 xl:text-5xl">
+          <h1 className="text-4xl font-bold text-gray-800 mb-4 xl:text-5xl md:text-right">
             I'm a <span className="text-yellow-600">Web Developer</span>
           </h1>
-          <p className="text-gray-600 mb-8 xl:text-xl">
-            I love exploring and creating 🚀 I'm a lifelong learner 🎓 and I
-            might have a thing for Pizzas 🍕. My goal is to deliver high-quality
-            code and ensure an optimal user experience 🧑‍💻.
+          <p className="text-gray-600 mb-8 xl:text-xl md:text-right">
+            I love exploring and creating 🚀 I'm a lifelong learner 🎓and I'm
+            very fond of trying out new things😋 My goal is to deliver
+            high-quality code and ensure an optimal user experience 🧑‍💻.
           </p>
-          <div className="mx-auto lg:mx-0">
+          <div className="mx-auto md:text-right lg:mx-0">
             <Link
               to="Portfolio"
               smooth
